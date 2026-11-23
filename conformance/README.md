@@ -1,6 +1,6 @@
 # Conformance cases
 
-Reference cases with fixed answers, run on every pull request that touches this directory. The first
+Reference cases with fixed answers, run on every pull request. The first
 set covers agent identity carried in an RFC 9421 HTTP message signature: a request signed over its
 method, target, authority, body digest and a field naming who acts for whom (a user, the agent chain
 acting for that user, and the digests of their credentials). There are 78 cases: 14 the verifier

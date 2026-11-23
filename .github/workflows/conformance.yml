@@ -2,9 +2,6 @@ name: conformance
 
 on:
   pull_request:
-    paths:
-      - "conformance/**"
-      - ".github/workflows/conformance.yml"
   push:
     branches: [main]
     paths:
